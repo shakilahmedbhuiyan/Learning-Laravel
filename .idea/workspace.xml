@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdecf58f-40bf-4b1c-857f-2d41b3fd9153" name="Default Changelist" comment="" />
+    <list default="true" id="cdecf58f-40bf-4b1c-857f-2d41b3fd9153" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/user.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +21,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -128,6 +138,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hs5fuJEmTQqxGor60m0OgeGGJa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -136,20 +149,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/user" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Xampp\htdocs\laravel\multiauth\resources\views\user" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Xampp\htdocs\laravel\multiauth\resources\views\user" />
       <recent name="E:\Xampp\htdocs\laravel\multiauth\resources\views" />
       <recent name="E:\Xampp\htdocs\laravel\multiauth\resources\views\layouts" />
       <recent name="E:\Xampp\htdocs\laravel\multiauth\app\Http\Controllers" />
       <recent name="E:\Xampp\htdocs\laravel\multiauth\app\Http\Controllers\Admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Xampp\htdocs\laravel\multiauth\resources\views\user" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -179,8 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.watch" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.watch" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +224,7 @@
       <workItem from="1601660037370" duration="340000" />
       <workItem from="1601741424885" duration="15930000" />
       <workItem from="1601760659201" duration="2220000" />
+      <workItem from="1601772688175" duration="10359000" />
     </task>
     <servers />
   </component>
@@ -241,22 +256,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="501" y="302" key="Github.CreateGistDialog/0.0.1366.768@0.0.1366.768" timestamp="1601763629371" />
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1601759439591">
+    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1601839083682">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601759439591" />
-    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1601759439591">
+    <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601839083682" />
+    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1601839083682">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601759439591" />
-    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1601759439590">
+    <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601839083682" />
+    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1601839083681">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601759439590" />
-    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1601759439591">
+    <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601839083681" />
+    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1601839083682">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601759439591" />
+    <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601839083682" />
     <state x="517" y="307" key="NewPhpFileDialog" timestamp="1601188189237">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -265,10 +280,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="67" y="39" width="998" height="708" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1601323420763" />
+    <state x="275" y="113" key="Vcs.Push.Dialog.v2" timestamp="1601838928677">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="113" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1601838928677" />
     <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600963289610">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1600963289610" />
+    <state x="500" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601838945244">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="500" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1601838945244" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601288780136">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

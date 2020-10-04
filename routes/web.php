@@ -27,8 +27,9 @@ Route::get('/home', 'UserController@index')->name('home');
  */
 Route::get('/profile', 'UserController@profile')->name('profile');
 Route::get('/profile/edit','UserController@editProfile')->name('editProfile.user');
-Route::POST('/profile/edit','UserController@updateProfile');
+Route::POST('/profile/edit','UserController@updateProfile')->name('editProfile.user');
 Route::POST('/profile/edit','UserController@updateProfile')->name('editProfileImage.user');
+Route::get('/profile/password','UserController@changePassword')->name('password.user');
 
 
 /**

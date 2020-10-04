@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-header">
                         <span class="text-left float-lg-left">{{ __('User Dashboard') }}</span>
-                        <a class="btn btn-outline-primary float-right" href="{{ url('profile/edit') }}"><i
+                        <a class="btn btn-outline-primary float-right" href="{{ route('editProfile.user') }}"><i
                                 class="fas fa-user-edit"></i></a>
                     </div>
 
@@ -47,9 +47,9 @@
                                 </div>
 
                                 <div class="col-sm-12 mt-2">
-                                    <button type="button" class="btn btn-outline-info">
+                                    <a type="button" href="{{ route('password.user') }}" class="btn btn-outline-info">
                                         {{ __('Change Password') }} <i class="fas fa-key"></i>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

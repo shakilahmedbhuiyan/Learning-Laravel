@@ -9,9 +9,6 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/custom.js') }}"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -19,18 +16,28 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 
     <!-- FontAwesome 5 icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
+
 </head>
 <body>
-<div id="app">
-    @include('layouts.include.nav')
+    <div id="app">
+        @include('layouts.include.nav')
 
-    <main class="py-4">
-        @yield('content')
-    </main>
-</div>
+        <main class="py-4">
+            @yield('content')
+        </main>
+    </div>
 </body>
+
+<!-- Scripts -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src="{{ asset('js/app.js') }}" defer></script>
+<script src="{{ asset('js/passStrength.js') }}"></script>
+<script src="{{ asset('js/custom.js') }}"></script>
+
 </html>
