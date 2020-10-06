@@ -4,8 +4,13 @@
     <list default="true" id="cdecf58f-40bf-4b1c-857f-2d41b3fd9153" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/user.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/include/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/include/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/editProfile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/editProfile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/password.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,8 +198,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.watch" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +229,10 @@
       <workItem from="1601660037370" duration="340000" />
       <workItem from="1601741424885" duration="15930000" />
       <workItem from="1601760659201" duration="2220000" />
-      <workItem from="1601772688175" duration="10359000" />
+      <workItem from="1601772688175" duration="11490000" />
+      <workItem from="1601878820836" duration="1819000" />
+      <workItem from="1601914407594" duration="5281000" />
+      <workItem from="1601967725478" duration="10462000" />
     </task>
     <servers />
   </component>
@@ -244,10 +252,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="363" y="120" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.768@0.0.1366.768" timestamp="1601573229419" />
-    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600970116522">
+    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601972591940">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1600970116522" />
+    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1601972591940" />
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1601842539132">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1601842539132" />
     <state x="446" y="294" key="ComposerInitDialogKey" timestamp="1601763514863">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -256,22 +268,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="501" y="302" key="Github.CreateGistDialog/0.0.1366.768@0.0.1366.768" timestamp="1601763629371" />
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1601839083682">
+    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1601967787361">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601839083682" />
-    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1601839083682">
+    <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601967787361" />
+    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1601967787361">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601839083682" />
-    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1601839083681">
+    <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601967787361" />
+    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1601967787361">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601839083681" />
-    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1601839083682">
+    <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601967787361" />
+    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1601967787361">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601839083682" />
+    <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601967787361" />
     <state x="517" y="307" key="NewPhpFileDialog" timestamp="1601188189237">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -292,6 +304,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="500" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1601838945244" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1601972387079">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1601972387079" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601288780136">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

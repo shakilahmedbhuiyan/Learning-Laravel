@@ -23,17 +23,31 @@ Auth::routes();
 Route::get('/home', 'UserController@index')->name('home');
 
 /*
+ *
  * user profile
+ *
  */
 Route::get('/profile', 'UserController@profile')->name('profile');
-Route::get('/profile/edit','UserController@editProfile')->name('editProfile.user');
-Route::POST('/profile/edit','UserController@updateProfile')->name('editProfile.user');
-Route::POST('/profile/edit','UserController@updateProfile')->name('editProfileImage.user');
-Route::get('/profile/password','UserController@changePassword')->name('password.user');
+/*
+ * request for profile edit page
+ */
+Route::get('/profile/edit', 'UserController@editProfile')->name('editProfile.user');
+/*
+ * user profile update process
+ */
+Route::POST('/profile/edit', 'UserController@updateProfile')->name('editProfile.user');
+Route::POST('/profile/edit', 'UserController@updateProfile')->name('editProfileImage.user');
+/*
+ * user password change process
+ */
+Route::get('/profile/password', 'UserController@changePassword')->name('password.user');
+Route::POST('/profile/password/update', 'UserController@updatePassword')->name('passwordUpdate.user');
 
 
-/**
+/*
+ *
  * Admin Login
+ *
  */
 Route::get('/admin/home', 'AdminController@index');
 Route::get('/admin', 'Admin\LoginController@showLoginForm')->name('login.admin');

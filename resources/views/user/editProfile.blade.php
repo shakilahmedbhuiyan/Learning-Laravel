@@ -5,7 +5,14 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">{{ __('User Dashboard') }}</div>
+                    <div class="card-header">
+                         <span class="float-left">
+                             {{ __('User Dashboard') }}
+                        </span>
+                        <span class="float-right">
+                            <a href="{{ url()->previous()}}" class="btn btn-outline-primary"><i class="fas fa-undo"></i></a>
+                        </span>
+                    </div>
 
                     <div class="card-body">
 

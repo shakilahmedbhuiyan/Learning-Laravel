@@ -8,6 +8,12 @@
                 <div class="card-header">{{ __('User Login') }}</div>
 
                 <div class="card-body">
+                    <!-- Success message -->
+                    @if(Session::has('success'))
+                        <div class="alert alert-success">
+                            {{Session::get('success')}}
+                        </div>
+                    @endif
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 

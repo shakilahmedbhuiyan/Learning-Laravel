@@ -5,7 +5,14 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">{{ __('User Dashboard') }}</div>
+                    <div class="card-header">
+                        <span class="float-left">
+                             {{ __('User Dashboard') }}
+                        </span>
+                        <span class="float-right">
+                            <a href="{{ url()->previous()}}" class="btn btn-outline-primary"><i class="fas fa-undo"></i></a>
+                        </span>
+                    </div>
 
                     <div class="card-body">
                         <div class="card-title border-bottom border-warning">
@@ -21,7 +28,7 @@
                         @endif
                     <!-- Error message -->
                         @if(Session::has('error'))
-                            <div class="alert alert-success">
+                            <div class="alert alert-warning">
                                 {{Session::get('error')}}
                             </div>
                         @endif
@@ -31,7 +38,7 @@
 
                             <!--  Profile update form -->
                             <form class="password-strength form-horizontal col-md" method="post"
-                                  action="{{ route('password.user') }}"
+                                  action="{{ route('passwordUpdate.user') }}"
                                   enctype="multipart/form-data">
                                 @csrf
 
@@ -60,14 +67,16 @@
 
                                     <div class="col-md-8 input-group">
 
-                                        <input class="password-strength__input form-control @error('newPassword') is-invalid @enderror"
+                                        <input
+                                            class="password-strength__input form-control @error('newPassword') is-invalid @enderror"
                                             type="password" id="newPassword"
                                             aria-describedby="passwordHelp" placeholder="Enter New password"
                                             name="newPassword" required autocomplete="new-password"/>
 
                                         <div class="input-group-append">
-                                            <button class="password-strength__visibility border-left-0 btn btn-outline-secondary"
-                                                    type="button">
+                                            <button
+                                                class="password-strength__visibility border-left-0 btn btn-outline-secondary"
+                                                type="button">
                                                 <span class="password-strength__visibility-icon"
                                                       data-visible="hidden">
                                                     <i class="fas fa-eye-slash"></i></span>
@@ -89,7 +98,8 @@
                                             </small>
 
                                             <div class="password-strength__bar-block progress mb-4">
-                                                <div class="password-strength__bar progress-bar bg-danger" role="progressbar"
+                                                <div class="password-strength__bar progress-bar bg-danger"
+                                                     role="progressbar"
                                                      aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                             </div>
 
@@ -113,7 +123,7 @@
                                         <input id="confirmPassword" type="password"
                                                class="form-control @error('confirmPassword') is-invalid @enderror"
                                                name="confirmPassword" required autocomplete="new-password"
-                                               placeholder="Retype New Password" >
+                                               placeholder="Retype New Password">
 
                                         @error('confirmPassword')
                                         <span class="invalid-feedback" role="alert">
@@ -122,7 +132,6 @@
                                         @enderror
                                     </div>
                                 </div>
-
 
 
                                 <div class="form-group row mb-0">
